@@ -16,10 +16,32 @@ body{
     max-width: 600px;
     margin: auto;
     background-color: rgb(239 239 239 / 60%);
-    border-radius: 20px;
-    padding: 20px 0;
+    border-radius: 10px;
+    padding: 15px 0;
 }
 
 .Card > div{
     padding: 0 25px;
+}
+
+.Card > .card_header{
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px;
+}
+
+.Card > .card_header h2{
+    font-size: 20px;    
+    font-weight: 500;
+}
+
+.Card > .card_header h2 strong{
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+
+.options_header strong{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
 }
